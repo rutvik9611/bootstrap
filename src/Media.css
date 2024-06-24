@@ -1,0 +1,38 @@
+@media screen and (max-width:768px){
+    .sub-menu{
+        display: none;
+    }
+}
+@media screen and (min-width:1024px) {
+    .sub-menu{
+        position: absolute;
+        display: block;
+        top: 110%;
+        left: -8px;
+        visibility: hidden;
+        overflow: hidden;
+        opacity: 0;
+        z-index: 10;
+        transition: 0.3s;
+        background-color: black;
+    }
+
+    .sub-menu ul{
+        padding: 20px 35px;
+    }
+
+    .sub-menu ul li{
+        text-align: left;
+        margin: 15px 0;
+    }
+
+    .main_nav a:hover .sub-menu{
+        visibility: visible;
+        opacity: 1;
+        overflow: visible;
+    }
+
+    .sub-menu{
+        text-wrap: nowrap;
+    }
+}
