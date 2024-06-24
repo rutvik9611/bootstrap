@@ -11,7 +11,7 @@ const Header = (props) => {
         <>
             <Navbar expand="lg" className="nav_color">
                 <Container className='main_header'>
-                    <Navbar.Brand href="#home"><h1>Impact Hello..</h1></Navbar.Brand>
+                    <Navbar.Brand href="#home"><h1>Impact</h1></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto main_nav">
